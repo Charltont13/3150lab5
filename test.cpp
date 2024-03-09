@@ -15,11 +15,10 @@ void testMatrixReadAndOperations() {
     g.readMatrixFromFile("testD0.txt", 0);
     g.readMatrixFromFile("testDm1.txt", -1);
 
-    // Run the algorithm
+    
     g.expensiveDigraphExactPaths();
 
     // Perform tests on the result
-    // Example:
     const Matrix& D0_result = g.getD0();
     assert(D0_result[0][0] == 0);
     assert(D0_result[0][1] == 0); 
