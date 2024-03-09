@@ -10,7 +10,6 @@ void testMatrixReadAndOperations() {
     g.initAdjacencyMatrices();
 
     // Read matrices from test files
-    // (Make sure to have testD1.txt, testD0.txt, testDm1.txt files with proper test matrices)
     g.readMatrixFromFile("testD1.txt", 1);
     g.readMatrixFromFile("testD0.txt", 0);
     g.readMatrixFromFile("testDm1.txt", -1);
