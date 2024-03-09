@@ -5,8 +5,7 @@ int main() {
     Graph g(4);
     
     try {
-        g.initAdjacencyMatrices(); // Initialize the graph with predefined values or a file
-
+        g.initAdjacencyMatrices(); 
         // Read matrices from files
         g.readMatrixFromFile("D1.txt", 1);
         g.readMatrixFromFile("D0.txt", 0);
