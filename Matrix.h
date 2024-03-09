@@ -8,11 +8,11 @@ using Matrix = std::vector<std::vector<int>>;
 
 class Graph {
 private:
-    int n; // Number of vertices in the graph, assuming a square matrix
+    int n; 
     Matrix D1, D0, Dm1;
 
 public:
-    explicit Graph(int size); // Constructor with an integer parameter
+    explicit Graph(int size); 
     void readMatrixFromFile(const std::string& filename, int matrixType);
     void expensiveDigraphExactPaths();
     void initAdjacencyMatrices();
